@@ -846,6 +846,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSSnapshotTestCase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Surge\"",
+				);
 				INFOPLIST_FILE = TestarosaSnapshotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joeblau.TestarosaSnapshotTests;
@@ -862,6 +867,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSSnapshotTestCase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Surge\"",
+				);
 				INFOPLIST_FILE = TestarosaSnapshotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joeblau.TestarosaSnapshotTests;

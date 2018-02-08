@@ -7,12 +7,12 @@
 //
 
 import UIKit
-//import Surge
+import Surge
 
 class ViewController: UIViewController {
 
-    private var randomButton: UIButton
-    private var sumLabel: UILabel
+    var randomButton: UIButton
+    var sumLabel: UILabel
     
     init() {
         randomButton = UIButton(type: .system)
@@ -23,13 +23,13 @@ class ViewController: UIViewController {
         randomButton.setTitleColor(.white, for: .normal)
         randomButton.translatesAutoresizingMaskIntoConstraints = false
         randomButton.setTitle("Random Sum", for: .normal)
-        randomButton.backgroundColor = .blue
-        randomButton.addTarget(self, action: #selector(generateRandomSum(_:)), for: .touchUpInside)
+        randomButton.backgroundColor = UIColor(red: 0.945, green: 0.271, blue: 0.239, alpha: 1.0)
+        randomButton.addTarget(self, action: #selector(generateAction(_:)), for: .touchUpInside)
         
         sumLabel.translatesAutoresizingMaskIntoConstraints = false
         sumLabel.textAlignment = .center
         sumLabel.text = "?"
-        sumLabel.backgroundColor = .lightGray
+        sumLabel.backgroundColor = UIColor(red: 0.118, green: 0.667, blue: 0.945, alpha: 1.0)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -66,17 +66,28 @@ class ViewController: UIViewController {
     
     // MARK: - Target Actions
     
-    @objc func generateRandomSum(_ sender: UIButton) {
-        let randomSubBillion = Int(arc4random_uniform(1000))
-        let randomSum = add(numbers: Array(0...randomSubBillion))
-        sumLabel.text = "\(randomSum)"
+    @objc func generateAction(_ sender: UIButton) {
+        generateRandomSum()
     }
     
     // MARK: - Private
 
-    func add(numbers: [Int]) -> Int {
-        return numbers.reduce(0, +)
+    func generateRandomSum() {
+        let randomThousand = Int(arc4random_uniform(1000))
+        let doubleArray = Array(0...randomThousand)
+            .map{ number -> Double in
+                return Double(number)
+        }
+        let randomSum = add(numbers: doubleArray)
+        sumLabel.text = "\(randomSum)"
+    }
+    
+    func add(numbers: [Double]) -> Double {
+        return numbers.reduce(0.0, +)
     }
 
+    func fastAdd(numbers: [Double]) -> Double {
+        return Surge.sum(numbers)
+    }
 }
 

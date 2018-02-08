@@ -11,25 +11,41 @@ import XCTest
 
 class TestarosaTests: XCTestCase {
     
+    let mockVC = ViewController()
+    let largeDoubleArray = Array(0...1_000_000)
+        .map{ number -> Double in
+            return Double(number)
+    }
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testGenerateRandomSum() {
+        // TODO:
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
+    func testAddingNumbers() {
+        // TODO:
+    }
+    
+    func testFastAddingNumbers() {
+        // TODO:
+    }
+    
+    func testPerformanceAddingNumbers() {
         self.measure {
-            // Put the code you want to measure the time of here.
+            // TODO:
+        }
+    }
+    
+    func testPerformanceFastAddingNumbers() {
+        self.measure {
+            // TODO:
         }
     }
     
