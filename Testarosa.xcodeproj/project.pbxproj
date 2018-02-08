@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03DD7203A733A29D4064030C /* Pods_TestarosaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353976647B983C0BDF135B3B /* Pods_TestarosaTests.framework */; };
+		26EA436F95CE101697050407 /* Pods_TestarosaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EB5F5FD353682CDB1EADC6 /* Pods_TestarosaUITests.framework */; };
+		6B33E56C049ACEB7DA342ECC /* Pods_TestarosaSnapshotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E2975F77B689557E224818 /* Pods_TestarosaSnapshotTests.framework */; };
 		E63EC6C1202CD3AB00FC0AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63EC6C0202CD3AB00FC0AE6 /* AppDelegate.swift */; };
 		E63EC6C3202CD3AB00FC0AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63EC6C2202CD3AB00FC0AE6 /* ViewController.swift */; };
-		E63EC6C6202CD3AB00FC0AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63EC6C4202CD3AB00FC0AE6 /* Main.storyboard */; };
 		E63EC6C8202CD3AB00FC0AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63EC6C7202CD3AB00FC0AE6 /* Assets.xcassets */; };
 		E63EC6CB202CD3AB00FC0AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63EC6C9202CD3AB00FC0AE6 /* LaunchScreen.storyboard */; };
 		E63EC6D6202CD3AB00FC0AE6 /* TestarosaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63EC6D5202CD3AB00FC0AE6 /* TestarosaTests.swift */; };
 		E63EC6E1202CD3AB00FC0AE6 /* TestarosaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63EC6E0202CD3AB00FC0AE6 /* TestarosaUITests.swift */; };
+		E63EC6F5202CD43500FC0AE6 /* TestarosaSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63EC6F4202CD43500FC0AE6 /* TestarosaSnapshotTests.swift */; };
+		F9185EA8773FF018DF328CE7 /* Pods_Testarosa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E3A140635836494976478D /* Pods_Testarosa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +35,29 @@
 			remoteGlobalIDString = E63EC6BC202CD3AB00FC0AE6;
 			remoteInfo = Testarosa;
 		};
+		E63EC6F7202CD43600FC0AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E63EC6B5202CD3AB00FC0AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E63EC6BC202CD3AB00FC0AE6;
+			remoteInfo = Testarosa;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E3A140635836494976478D /* Pods_Testarosa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testarosa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E2975F77B689557E224818 /* Pods_TestarosaSnapshotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestarosaSnapshotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED8B37C033ECBEF4E3F0FF6 /* Pods-TestarosaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestarosaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestarosaUITests/Pods-TestarosaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28EB5F5FD353682CDB1EADC6 /* Pods_TestarosaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestarosaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		353976647B983C0BDF135B3B /* Pods_TestarosaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestarosaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4195AEAB3C1D3A4A4B54F11D /* Pods-TestarosaSnapshotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestarosaSnapshotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestarosaSnapshotTests/Pods-TestarosaSnapshotTests.release.xcconfig"; sourceTree = "<group>"; };
+		41C7F9940273C62ED245BC5C /* Pods-Testarosa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testarosa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Testarosa/Pods-Testarosa.debug.xcconfig"; sourceTree = "<group>"; };
+		921961AD1E687E14CAAFA91C /* Pods-Testarosa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testarosa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Testarosa/Pods-Testarosa.release.xcconfig"; sourceTree = "<group>"; };
+		C5CF82A87DA73E70E8B01CBB /* Pods-TestarosaSnapshotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestarosaSnapshotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestarosaSnapshotTests/Pods-TestarosaSnapshotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBB6258FAFFA4982CD7A005F /* Pods-TestarosaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestarosaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestarosaTests/Pods-TestarosaTests.release.xcconfig"; sourceTree = "<group>"; };
 		E63EC6BD202CD3AB00FC0AE6 /* Testarosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testarosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63EC6C0202CD3AB00FC0AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E63EC6C2202CD3AB00FC0AE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E63EC6C5202CD3AB00FC0AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E63EC6C7202CD3AB00FC0AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E63EC6CA202CD3AB00FC0AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E63EC6CC202CD3AB00FC0AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +67,11 @@
 		E63EC6DC202CD3AB00FC0AE6 /* TestarosaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestarosaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63EC6E0202CD3AB00FC0AE6 /* TestarosaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestarosaUITests.swift; sourceTree = "<group>"; };
 		E63EC6E2202CD3AB00FC0AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63EC6F2202CD43500FC0AE6 /* TestarosaSnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestarosaSnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63EC6F4202CD43500FC0AE6 /* TestarosaSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestarosaSnapshotTests.swift; sourceTree = "<group>"; };
+		E63EC6F6202CD43600FC0AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3856B918F1F20D34A577336 /* Pods-TestarosaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestarosaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestarosaUITests/Pods-TestarosaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F806E22D966E9206B39397F9 /* Pods-TestarosaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestarosaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestarosaTests/Pods-TestarosaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9185EA8773FF018DF328CE7 /* Pods_Testarosa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DD7203A733A29D4064030C /* Pods_TestarosaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +95,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26EA436F95CE101697050407 /* Pods_TestarosaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63EC6EF202CD43500FC0AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B33E56C049ACEB7DA342ECC /* Pods_TestarosaSnapshotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F602F3331E847121629A854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41C7F9940273C62ED245BC5C /* Pods-Testarosa.debug.xcconfig */,
+				921961AD1E687E14CAAFA91C /* Pods-Testarosa.release.xcconfig */,
+				C5CF82A87DA73E70E8B01CBB /* Pods-TestarosaSnapshotTests.debug.xcconfig */,
+				4195AEAB3C1D3A4A4B54F11D /* Pods-TestarosaSnapshotTests.release.xcconfig */,
+				F806E22D966E9206B39397F9 /* Pods-TestarosaTests.debug.xcconfig */,
+				DBB6258FAFFA4982CD7A005F /* Pods-TestarosaTests.release.xcconfig */,
+				1ED8B37C033ECBEF4E3F0FF6 /* Pods-TestarosaUITests.debug.xcconfig */,
+				F3856B918F1F20D34A577336 /* Pods-TestarosaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCCDADC3E9E5A937BF64C52E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06E3A140635836494976478D /* Pods_Testarosa.framework */,
+				19E2975F77B689557E224818 /* Pods_TestarosaSnapshotTests.framework */,
+				353976647B983C0BDF135B3B /* Pods_TestarosaTests.framework */,
+				28EB5F5FD353682CDB1EADC6 /* Pods_TestarosaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E63EC6B4202CD3AB00FC0AE6 = {
 			isa = PBXGroup;
 			children = (
 				E63EC6BF202CD3AB00FC0AE6 /* Testarosa */,
 				E63EC6D4202CD3AB00FC0AE6 /* TestarosaTests */,
 				E63EC6DF202CD3AB00FC0AE6 /* TestarosaUITests */,
+				E63EC6F3202CD43500FC0AE6 /* TestarosaSnapshotTests */,
 				E63EC6BE202CD3AB00FC0AE6 /* Products */,
+				5F602F3331E847121629A854 /* Pods */,
+				CCCDADC3E9E5A937BF64C52E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +155,7 @@
 				E63EC6BD202CD3AB00FC0AE6 /* Testarosa.app */,
 				E63EC6D1202CD3AB00FC0AE6 /* TestarosaTests.xctest */,
 				E63EC6DC202CD3AB00FC0AE6 /* TestarosaUITests.xctest */,
+				E63EC6F2202CD43500FC0AE6 /* TestarosaSnapshotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +165,6 @@
 			children = (
 				E63EC6C0202CD3AB00FC0AE6 /* AppDelegate.swift */,
 				E63EC6C2202CD3AB00FC0AE6 /* ViewController.swift */,
-				E63EC6C4202CD3AB00FC0AE6 /* Main.storyboard */,
 				E63EC6C7202CD3AB00FC0AE6 /* Assets.xcassets */,
 				E63EC6C9202CD3AB00FC0AE6 /* LaunchScreen.storyboard */,
 				E63EC6CC202CD3AB00FC0AE6 /* Info.plist */,
@@ -125,6 +190,15 @@
 			path = TestarosaUITests;
 			sourceTree = "<group>";
 		};
+		E63EC6F3202CD43500FC0AE6 /* TestarosaSnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				E63EC6F4202CD43500FC0AE6 /* TestarosaSnapshotTests.swift */,
+				E63EC6F6202CD43600FC0AE6 /* Info.plist */,
+			);
+			path = TestarosaSnapshotTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E63EC6E5202CD3AB00FC0AE6 /* Build configuration list for PBXNativeTarget "Testarosa" */;
 			buildPhases = (
+				4F84DA3AEF7D29073CA5A229 /* [CP] Check Pods Manifest.lock */,
 				E63EC6B9202CD3AB00FC0AE6 /* Sources */,
 				E63EC6BA202CD3AB00FC0AE6 /* Frameworks */,
 				E63EC6BB202CD3AB00FC0AE6 /* Resources */,
+				D295D62B67FC5E175514026B /* [CP] Embed Pods Frameworks */,
+				86A6B06CBEF2BFE9B5DE429D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E63EC6E8202CD3AB00FC0AE6 /* Build configuration list for PBXNativeTarget "TestarosaTests" */;
 			buildPhases = (
+				016ADBD7FEF10FFDA9DD88C8 /* [CP] Check Pods Manifest.lock */,
 				E63EC6CD202CD3AB00FC0AE6 /* Sources */,
 				E63EC6CE202CD3AB00FC0AE6 /* Frameworks */,
 				E63EC6CF202CD3AB00FC0AE6 /* Resources */,
+				665D0D969358DABB083342A2 /* [CP] Embed Pods Frameworks */,
+				585A4049E895D47966E55AD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E63EC6EB202CD3AB00FC0AE6 /* Build configuration list for PBXNativeTarget "TestarosaUITests" */;
 			buildPhases = (
+				7BA667B593DEA49EDFD108EA /* [CP] Check Pods Manifest.lock */,
 				E63EC6D8202CD3AB00FC0AE6 /* Sources */,
 				E63EC6D9202CD3AB00FC0AE6 /* Frameworks */,
 				E63EC6DA202CD3AB00FC0AE6 /* Resources */,
+				E2E24118949A7446E835CB88 /* [CP] Embed Pods Frameworks */,
+				84644BCB428131A57AE954DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +263,27 @@
 			productName = TestarosaUITests;
 			productReference = E63EC6DC202CD3AB00FC0AE6 /* TestarosaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E63EC6F1202CD43500FC0AE6 /* TestarosaSnapshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63EC6F9202CD43600FC0AE6 /* Build configuration list for PBXNativeTarget "TestarosaSnapshotTests" */;
+			buildPhases = (
+				9A35EF962305A6048FCDF62B /* [CP] Check Pods Manifest.lock */,
+				E63EC6EE202CD43500FC0AE6 /* Sources */,
+				E63EC6EF202CD43500FC0AE6 /* Frameworks */,
+				E63EC6F0202CD43500FC0AE6 /* Resources */,
+				779DC96207494AEB96010FA8 /* [CP] Embed Pods Frameworks */,
+				2663C1ACBC47D2B0B65BE080 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E63EC6F8202CD43600FC0AE6 /* PBXTargetDependency */,
+			);
+			name = TestarosaSnapshotTests;
+			productName = TestarosaSnapshotTests;
+			productReference = E63EC6F2202CD43500FC0AE6 /* TestarosaSnapshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,6 +309,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = E63EC6BC202CD3AB00FC0AE6;
 					};
+					E63EC6F1202CD43500FC0AE6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E63EC6BC202CD3AB00FC0AE6;
+					};
 				};
 			};
 			buildConfigurationList = E63EC6B8202CD3AB00FC0AE6 /* Build configuration list for PBXProject "Testarosa" */;
@@ -223,6 +332,7 @@
 				E63EC6BC202CD3AB00FC0AE6 /* Testarosa */,
 				E63EC6D0202CD3AB00FC0AE6 /* TestarosaTests */,
 				E63EC6DB202CD3AB00FC0AE6 /* TestarosaUITests */,
+				E63EC6F1202CD43500FC0AE6 /* TestarosaSnapshotTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +344,6 @@
 			files = (
 				E63EC6CB202CD3AB00FC0AE6 /* LaunchScreen.storyboard in Resources */,
 				E63EC6C8202CD3AB00FC0AE6 /* Assets.xcassets in Resources */,
-				E63EC6C6202CD3AB00FC0AE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +361,212 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E63EC6F0202CD43500FC0AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016ADBD7FEF10FFDA9DD88C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestarosaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2663C1ACBC47D2B0B65BE080 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestarosaSnapshotTests/Pods-TestarosaSnapshotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F84DA3AEF7D29073CA5A229 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Testarosa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585A4049E895D47966E55AD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestarosaTests/Pods-TestarosaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665D0D969358DABB083342A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestarosaTests/Pods-TestarosaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		779DC96207494AEB96010FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestarosaSnapshotTests/Pods-TestarosaSnapshotTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestarosaSnapshotTests/Pods-TestarosaSnapshotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BA667B593DEA49EDFD108EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestarosaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84644BCB428131A57AE954DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestarosaUITests/Pods-TestarosaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86A6B06CBEF2BFE9B5DE429D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Testarosa/Pods-Testarosa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A35EF962305A6048FCDF62B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestarosaSnapshotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D295D62B67FC5E175514026B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Testarosa/Pods-Testarosa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E24118949A7446E835CB88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestarosaUITests/Pods-TestarosaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E63EC6B9202CD3AB00FC0AE6 /* Sources */ = {
@@ -280,6 +594,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E63EC6EE202CD43500FC0AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63EC6F5202CD43500FC0AE6 /* TestarosaSnapshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,17 +615,14 @@
 			target = E63EC6BC202CD3AB00FC0AE6 /* Testarosa */;
 			targetProxy = E63EC6DD202CD3AB00FC0AE6 /* PBXContainerItemProxy */;
 		};
+		E63EC6F8202CD43600FC0AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E63EC6BC202CD3AB00FC0AE6 /* Testarosa */;
+			targetProxy = E63EC6F7202CD43600FC0AE6 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E63EC6C4202CD3AB00FC0AE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E63EC6C5202CD3AB00FC0AE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E63EC6C9202CD3AB00FC0AE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +743,7 @@
 		};
 		E63EC6E6202CD3AB00FC0AE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C7F9940273C62ED245BC5C /* Pods-Testarosa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +758,7 @@
 		};
 		E63EC6E7202CD3AB00FC0AE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921961AD1E687E14CAAFA91C /* Pods-Testarosa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +773,7 @@
 		};
 		E63EC6E9202CD3AB00FC0AE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F806E22D966E9206B39397F9 /* Pods-TestarosaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +790,7 @@
 		};
 		E63EC6EA202CD3AB00FC0AE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB6258FAFFA4982CD7A005F /* Pods-TestarosaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +807,7 @@
 		};
 		E63EC6EC202CD3AB00FC0AE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED8B37C033ECBEF4E3F0FF6 /* Pods-TestarosaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +823,7 @@
 		};
 		E63EC6ED202CD3AB00FC0AE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3856B918F1F20D34A577336 /* Pods-TestarosaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +834,38 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Testarosa;
+			};
+			name = Release;
+		};
+		E63EC6FA202CD43600FC0AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CF82A87DA73E70E8B01CBB /* Pods-TestarosaSnapshotTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestarosaSnapshotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeblau.TestarosaSnapshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testarosa.app/Testarosa";
+			};
+			name = Debug;
+		};
+		E63EC6FB202CD43600FC0AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4195AEAB3C1D3A4A4B54F11D /* Pods-TestarosaSnapshotTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestarosaSnapshotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeblau.TestarosaSnapshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testarosa.app/Testarosa";
 			};
 			name = Release;
 		};
@@ -547,6 +904,15 @@
 			buildConfigurations = (
 				E63EC6EC202CD3AB00FC0AE6 /* Debug */,
 				E63EC6ED202CD3AB00FC0AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63EC6F9202CD43600FC0AE6 /* Build configuration list for PBXNativeTarget "TestarosaSnapshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63EC6FA202CD43600FC0AE6 /* Debug */,
+				E63EC6FB202CD43600FC0AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
