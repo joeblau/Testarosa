@@ -4,13 +4,16 @@ PODS:
   - iOSSnapshotTestCase/Core (2.2.0)
   - iOSSnapshotTestCase/SwiftSupport (2.2.0):
     - iOSSnapshotTestCase/Core
+  - Surge (2.0.0)
 
 DEPENDENCIES:
   - iOSSnapshotTestCase
+  - Surge (~> 2.0.0)
 
 SPEC CHECKSUMS:
   iOSSnapshotTestCase: 415bd84f9dbba4ff45fede49d800bc7332fbedac
+  Surge: 1f0286bc5f0fe4283f3455479895bf85c7ef7760
 
-PODFILE CHECKSUM: 6ab6da2ea1f12fddb4787f24c6c94ea10b49bde2
+PODFILE CHECKSUM: 3cb3ef9d23a4aa17de4fd7d4f13dea5cd8cfba82
 
 COCOAPODS: 1.4.0
