@@ -11,14 +11,15 @@ import XCTest
 
 class TestarosaTests: XCTestCase {
     
-    let mockVC = ViewController()
-    let largeDoubleArray = Array(0...1_000_000)
+    var mockVC: ViewController!
+    let largeDoubleArray = Array(0...10_000_000)
         .map{ number -> Double in
             return Double(number)
     }
     
     override func setUp() {
         super.setUp()
+        mockVC = ViewController()
     }
     
     override func tearDown() {
@@ -30,22 +31,26 @@ class TestarosaTests: XCTestCase {
     }
     
     func testAddingNumbers() {
-        // TODO:
+        let numbs: [Double] = [1.0,2.0,3.0]
+        let result = mockVC.add(numbers: numbs)
+        XCTAssertEqual(result, 6.0)
     }
     
     func testFastAddingNumbers() {
-        // TODO:
+        let numbs: [Double] = [1.0,2.0,3.0]
+        let result = mockVC.fastAdd(numbers: numbs)
+        XCTAssertEqual(result, 6.0)
     }
     
     func testPerformanceAddingNumbers() {
         self.measure {
-            // TODO:
+            _ = mockVC.add(numbers: largeDoubleArray)
         }
     }
     
     func testPerformanceFastAddingNumbers() {
         self.measure {
-            // TODO:
+            _ = mockVC.fastAdd(numbers: largeDoubleArray)
         }
     }
     

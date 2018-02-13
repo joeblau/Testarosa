@@ -1,4 +1,4 @@
-//
+    //
 //  ViewController.swift
 //  Testarosa
 //
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         sumLabel.translatesAutoresizingMaskIntoConstraints = false
         sumLabel.textAlignment = .center
         sumLabel.text = "?"
-        sumLabel.backgroundColor = UIColor(red: 0.118, green: 0.667, blue: 0.945, alpha: 1.0)
+        sumLabel.backgroundColor = .orange
     }
     
     required init?(coder aDecoder: NSCoder) {

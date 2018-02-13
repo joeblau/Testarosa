@@ -22,7 +22,9 @@ class TestarosaUITests: XCTestCase {
     }
     
     func testButtonClicks() {
-        // TODO:
+        XCUIApplication().buttons["Random Sum"].tap()
+
+
     }
     
 }

@@ -15,14 +15,17 @@ class TestarosaSnapshotTests: FBSnapshotTestCase {
     
     override func setUp() {
         super.setUp()
-        self.recordMode = true
+//        self.recordMode = true
     }
     
     func testRandomSum_init() {
-        // TODO
+        let mockVC = ViewController()
+        FBSnapshotVerifyView(mockVC.view)
     }
     
     func testRandomSum_populated() {
-        // TODO
+        let mockVC = ViewController()
+        mockVC.sumLabel.text = "1234"
+        FBSnapshotVerifyView(mockVC.view)
     }
 }
